@@ -1,0 +1,165 @@
+/* header and links */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img-container {
+  display: flex;
+}
+.logo {
+  color: white;
+  font-size: 24px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: darkgray;
+  text-decoration: none;
+  padding: 0 20px;
+}
+/* about the page */
+.container {
+  background-color: #1f2937;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-1 {
+  width: 400px;
+}
+.main-one img {
+  width: 520px;
+  height: 220px;
+  border-radius: 10px;
+}
+.container-1 h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+.container-1 p {
+  font-size: 18px;
+  color: lightgray;
+  padding-bottom: 10px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: #3882f6;
+  color: white;
+  border: solid white;
+  border-radius: 10px;
+  padding: 5px 25px;
+  font-size: 20px;
+}
+/* first main part */
+.main-one {
+  background-color: #1f2937;
+  font-family: serif;
+}
+/* second main part */
+.main-two {
+  background-color: white;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  font-weight: bold;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.container-2 img {
+  height: 170px;
+  width: 150px;
+  border-radius: 10px;
+}
+.subtext {
+  display: flex;
+  width: 170px;
+}
+
+.main-three {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  padding: 100px 0px;
+  justify-content: center;
+  width: 100%;
+}
+.quote-info {
+  font-size: 26px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  width: 750px;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 70px 140px;
+}
+
+.signup-info {
+  background-color: #3882f6;
+  padding: 25px 25px;
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.bold-text {
+  font-size: 24px;
+  color: white;
+}
+.light-text {
+  color: lightgray;
+}
+.sticky-footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 100%;
+}
+body {
+  min-height: 100vh;
+}
